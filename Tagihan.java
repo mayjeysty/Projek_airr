@@ -25,7 +25,7 @@ class Pelanggan {
 
 // Class ini untuk perhitungan tagihan air
 // Class ini mewarisi dari Pelanggan
-class Tagihan extends Pelanggan {
+public class Tagihan extends Pelanggan {
 
     // Data pemakaian dan keterlambatan
     protected int pemakaian;
